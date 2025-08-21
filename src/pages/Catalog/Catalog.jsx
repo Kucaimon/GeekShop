@@ -46,7 +46,7 @@ const Catalog = () => {
     }
 
     // 2. ФИЛЬТРАЦИЯ ПО НАЛИЧИЮ - ПОКАЗЫВАЕМ ТОЛЬКО ТОВАРЫ В НАЛИЧИИ
-    result = result.filter((product) => product.inStock);
+    // result = result.filter((product) => product.inStock);
 
     // 3. Сортировка
     switch (sortBy) {
