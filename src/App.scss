@@ -1,0 +1,23 @@
+// src/App.scss
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    sans-serif;
+  color: #333;
+  background-color: #f8fafc;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1; /* Это нужно, чтобы контент занимал все доступное пространство, а футер (если будет) прижимался к низу */
+}
